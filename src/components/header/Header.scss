@@ -1,0 +1,75 @@
+/* Font Definition */
+@font-face {
+    font-family: Inter;
+    src: url("../../styles/Inter-VariableFont_opsz_wght.woff") format("woff");
+}
+
+.header {
+    font-family: Inter, sans-serif;
+    background-color: #1C1814;
+    padding-bottom: 20px;
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img:first-child {
+            margin-top: 10px;
+        }
+
+        ul {
+            margin-top: 30px;
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            color: #ffffff;
+
+            li {
+                display: inline-block;
+            }
+
+            img {
+                width: 22px;
+                height: auto; 
+            }
+        }
+    }
+}
+
+.dif_color {
+    color: #C99E71;
+}
+
+.container {
+    max-width: 1180px;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .header__nav {
+        flex-direction: column;
+        align-items: center;
+
+        ul {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header__nav {
+        ul {
+            gap: 10px;
+            li {
+                font-size: 14px;
+            }
+
+            img {
+                width: 18px;
+            }
+        }
+    }
+}

@@ -1,0 +1,435 @@
+@font-face {
+  font-family: Righteous;
+  src: url("../../styles/Righteous-Regular.woff");
+}
+
+@font-face {
+  font-family: Urbanist;
+  src: url("../../styles/Urbanist-VariableFont_wght.woff");
+}
+main .container_main {
+  max-width: 1050px !important;
+  padding: 0 20px !important;
+  margin: 0 auto !important;
+}
+
+.Hero {
+  background-image: url(../../assets/Rectangle_12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 626px;
+  &__content {
+    padding-top: 180px;
+    color: #fff;
+    h1 {
+      font-family: Righteous;
+      width: 529px;
+      font-size: 72px;
+      font-weight: 400;
+      line-height: 93.6px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    p {
+      margin-top: 30px;
+      width: 511px;
+      font-family: Urbanist;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 36px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    button {
+      margin-top: 30px;
+      background: #c99e71;
+      border: 0px;
+      padding: 15px 25px;
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+}
+
+.Flavor {
+  background: #14110e;
+  &__content {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    &__img img {
+      width: 266px;
+      height: 320px;
+    }
+    &__img p span {
+      color: #c99e71;
+    }
+    &__img p {
+      margin-bottom: 30px;
+      color: #fff;
+      font-family: Righteous;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 29.8px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+}
+
+.story {
+  padding-top: 100px;
+  background-color: #14110e;
+  &__img {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    &__flex {
+      display: flex;
+      gap: 30px;
+      flex-direction: column;
+      img {
+        width: 228px;
+        height: 272px;
+      }
+    }
+    &__flex2 img {
+      width: 248px;
+      height: 570px;
+    }
+    &__div {
+      padding-left: 40px;
+      padding-right: 40px;
+      width: 510px;
+      background-color: #1c1814;
+      h3 {
+        margin-top: 100px;
+        color: #c99e71;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.6px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      h2 {
+        width: 398px;
+        margin-top: 30px;
+        color: #fff;
+        font-family: Righteous;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 62.4px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      p {
+        margin-top: 30px;
+        color: #fff;
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28.8px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+    }
+  }
+}
+
+.brazil {
+  padding-top: 150px;
+  background-color: #14110e;
+  button {
+    margin-top: 30px;
+    background: #c99e71;
+    border: 0px;
+    padding: 25px 45px;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 38%;
+    margin-top: 100px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content h3 {
+    text-align: center;
+    color: #c99e71;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  &__content h2 {
+    text-align: center;
+    color: #fff;
+    font-family: Righteous;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  &__card {
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    p:nth-child(3) {
+      margin-left: 30px;
+      text-transform: capitalize;
+      font-family: Righteous;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 29.8px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #fff;
+    }
+    button {
+      margin-left: 30px;
+      margin-top: 30px;
+      background: #c99e71;
+      border: 0px;
+      padding: 10px 35px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      img {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+      }
+    }
+    img:nth-child(2) {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    p:last-child {
+      margin-left: 40px;
+      margin-top: 20px;
+      color: #fff;
+      font-family: Urbanist;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 21.6px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      span {
+        color: #c99e71;
+      }
+    }
+  }
+}
+
+.blender {
+  padding-top: 200px;
+  background-color: #14110e;
+
+  &__info {
+    color: #fff;
+    background: #1c1814;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__content h2 {
+    width: 400px;
+    font-family: Righteous;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 50px;
+  }
+  &__content p {
+    width: 535px;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 50px;
+  }
+  &__content button{
+    background: #c99e71;
+    border: 0px;
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 18px;
+  }
+}
+
+  
+  @media (max-width: 768px) {
+    .Hero {
+      height: 450px;
+      &__content {
+        padding-top: 100px;
+        h1 {
+          font-size: 48px;
+          line-height: 60px;
+          width: 100%;
+          text-align: center;
+        }
+        p {
+          font-size: 18px;
+          line-height: 28px;
+          width: 90%;
+          margin: 0 auto;
+          text-align: center;
+        }
+        button {
+          display: block;
+          margin: 20px auto;
+          padding: 10px 20px;
+          font-size: 16px;
+        }
+      }
+    }
+    .Flavor__content {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      &__img img {
+        width: 220px;
+        height: auto;
+      }
+      &__img p {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+    .brazil__cards {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .brazil__card {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .story__img {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      &__flex img {
+        width: 180px;
+        height: auto;
+      }
+      &__div {
+        width: 90%;
+        margin: 20px auto;
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Hero {
+      height: 350px;
+      &__content {
+        padding-top: 80px;
+        h1 {
+          font-size: 36px;
+          line-height: 48px;
+          text-align: center;
+        }
+        p {
+          font-size: 14px;
+          line-height: 22px;
+          width: 100%;
+          margin: 10px auto;
+          text-align: center;
+        }
+        button {
+          font-size: 14px;
+          padding: 8px 16px;
+        }
+      }
+    }
+    .Flavor__content {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      &__img img {
+        width: 150px;
+        height: auto;
+      }
+      &__img p {
+        font-size: 16px;
+      }
+    }
+    .brazil__cards {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .brazil__card {
+      width: 100%;
+    }
+    .story__img {
+      flex-direction: column;
+      gap: 15px;
+      &__flex img {
+        width: 150px;
+      }
+      &__div {
+        padding: 20px;
+        margin: 0 auto;
+      }
+    }
+    .blender__content {
+      h2 {
+        font-size: 24px;
+        line-height: 32px;
+        width: 100%;
+        text-align: center;
+      }
+      p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+      }
+      button {
+        padding: 12px 20px;
+        font-size: 16px;
+      }
+    }
+  }
+  
